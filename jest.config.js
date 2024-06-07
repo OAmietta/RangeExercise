@@ -1,5 +1,3 @@
-// jest.config.js
-
 module.exports = {
   moduleFileExtensions: ["js", "jsx", "json", "node"],
   setupFiles: ["<rootDir>/jest.setup.js"],
