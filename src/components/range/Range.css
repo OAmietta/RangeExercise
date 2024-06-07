@@ -1,0 +1,85 @@
+.container {
+  --uib-size: 85px;
+  --uib-color: black;
+  --uib-speed: 1s;
+  --uib-stroke: 8.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--uib-size);
+  height: calc(var(--uib-size) * 0.9);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: "15px";
+  width: 80vw;
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.slider-container {
+  position: relative;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50vw;
+}
+
+.slider-bar {
+  position: absolute;
+  height: 100%;
+  background-color: black;
+}
+
+.slider-thumb {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  margin-top: -5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.slider-thumb:hover {
+  width: 15px;
+  height: 40px;
+  margin-top: -10px;
+  cursor: grab;
+}
+
+.slider-thumb-min {
+  left: 0;
+}
+
+.slider-thumb-max {
+  right: 0;
+}
+
+.slider-label {
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+}
+
+.slider-label-min {
+  left: 0;
+}
+
+.slider-label-max {
+  right: 0;
+}
+
+.slider-input {
+  font-size: 14px;
+  border: none;
+  width: 50px;
+}
+
+.input-container {
+  width: 85px;
+  background-color: white;
+  text-align: right;
+}
+
+.euro-span {
+  width: 2px;
+}
